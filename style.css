@@ -1,5 +1,10 @@
-
-h1
+.title
 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50 px;
+} 
+.page-title
+{
+    font-size: 20 px;
     color: red;
 }
