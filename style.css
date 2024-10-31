@@ -1,3 +1,16 @@
+h1 
+{
+    position: relative;
+    color:red !important;
+}
+h1::after 
+{
+    content:'ДО';
+}
+h1::before
+{
+    content:'ПОСЛЕ'; 
+}
 .title
 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -6,5 +19,4 @@
 .page-title
 {
     font-size: 20 px;
-    color: red;
 }
